@@ -1,0 +1,47 @@
+.notifications .getOperations.sender-sign{
+    width: 15%;
+    background-color: #ecd7d7;
+    border-radius: 24px;
+    width: 36px;
+    padding-top: 3px;
+    padding-right: 6px;    
+}
+.notifications .getOperations.sender-sign img{
+    position: relative;
+    top: 3px;
+    left: 6px;
+}
+.notifications .getOperations.user{
+    width: 85%;
+    position: relative;
+    top: -3px;
+    left: 19px;    
+}
+.notifications tr{
+    height: 34px;
+    background-color: #fff;
+    border-radius: 12px;  
+    display: table;  
+    width: 96%;
+    margin: 10px 12px;
+}
+
+.notifications .table-list{
+  margin: 10px 13px;
+  padding: 10px 11px;
+  width: 92%;
+}
+
+.notifications .email-st{
+    margin: 6px 10px;
+}
+
+
+@media (max-width: 760px) {
+    .notifications .table-list tbody{
+    height: 400px;
+    display: inline-block;
+    width: 100%;
+    overflow-y: auto;
+    }
+}

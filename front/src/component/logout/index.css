@@ -1,0 +1,33 @@
+/* .user-show {
+    font-size: 300%;
+}
+.clear{
+    clear: both;
+} */
+/* .getOperations.user{
+    display: grid;
+}
+.getOperations.kind{
+    font-size: 80%;
+} */
+.logout-form .buttonComp button{
+    /* margin: 0 auto; */
+
+    padding: 10px 16px;
+    border-radius: 12px;
+    transition: opacity 0.4s; 
+    
+    display: inherit;
+    width: 87%;
+    margin: 0px 0px 10px 16px;
+  background-color: #fff;
+  color: #c1152c;
+  border: 1px solid #c1152c;  
+}
+
+
+@media (max-width: 760px) {
+    .container.settings {
+      height: 629px;
+    }
+  }

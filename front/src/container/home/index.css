@@ -1,0 +1,80 @@
+.main {
+    background-image: url("background.svg");
+    margin: 0 auto;
+    height: 583px;
+    width: 393px;
+  }
+
+  .main-center {
+    background-image: url("money.png");
+    margin: 20px auto;
+    height: 601px;
+    width: 601px;    
+    margin-left: -208px;
+    margin-top: -151px;
+  }
+
+  .main h3{
+    text-align: center;
+    position: relative;    
+    top: 20px;
+  }
+
+.main .buttons{
+  /* top: 628px; */
+  margin-top: 45px;
+}
+
+/* a.App-link {
+    color: #000;
+    font-weight: bold;
+} */
+
+.App-link {
+  display: block;
+  /* width: 100%; */
+  height: 56px;
+  border: none;
+  /* background-color: #bb3232; */
+  /* color: #fff; */
+  margin: 10px 20px;
+  border-radius: 12px;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #775CE5;
+  gap: 10px;
+  padding: 14px 20px 14px 20px;
+  }
+
+.App-link:hover{  
+  background-color: #775CE5;
+}
+
+.App-link{  
+  background-color: #fff;
+}
+
+.page.main .menu {
+  position: absolute;
+}
+/* ---------------------------------- */
+@media (max-height: 700px) {
+  .main-center{
+    margin-top: -124px;
+  }
+}
+/* @media (max-height: 700px) {
+  .main{
+    height: 475px;
+    width: 393px;
+  }
+  .main-center{
+    margin-top: -260px;
+  }
+  .main .buttons {
+    margin-top: 0px;
+  }
+  .main h3 {
+    top: 6px;
+  }  
+} */

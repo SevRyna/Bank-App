@@ -1,0 +1,13 @@
+.time-show {
+    font-size: 101%;
+    /* font-weight: bold; */
+}
+.clear{
+    clear: both;
+}
+.info {
+    text-align: center;
+    position: relative;
+    top: 15px;
+    color: gray;    
+}

@@ -1,0 +1,12 @@
+.menu-balance{
+  position: fixed;
+  top: 36px;
+  float: left;
+}
+.settings-button{
+  float: left;
+}
+.notification-button{
+  float: right;
+  padding-right: 5px;
+}

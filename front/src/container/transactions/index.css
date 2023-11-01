@@ -1,0 +1,44 @@
+.transactions h3.info{
+    text-align: center;
+    font-weight: bold;    
+}
+.transactions h1 {
+    padding-top: 40px;
+}
+.transactions h1.sum1{
+    color: green;
+    margin-bottom: 48px;
+}
+.hidden{
+    display: none;
+}
+
+.transactions table{
+    display: grid;
+    width: 100%;
+    display: inline-table;
+}
+.transactions td{
+    width:70%;
+}
+.transactions td.first{
+    /* width: 20%; */
+    text-align: left;
+    padding-left: 30px;
+}
+.transactions td.second{
+    /* width:70%; */
+    text-align: right;
+    padding-right: 30px;
+}
+
+.transactions tr{
+    display: flex;
+    background-color: #fff;
+    margin: 2px 15px;
+    border-radius: 8px;
+    height: 34px;
+}
+.transactions tr td{
+    padding: 5px 0 0px 18px;
+}

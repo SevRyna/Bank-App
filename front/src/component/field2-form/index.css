@@ -1,0 +1,73 @@
+.field-form.myform{
+    display: block;
+}
+/* textarea {
+    width: 200px;
+} */
+textarea {
+    margin-left: 5px;
+}
+/* -------------------- */
+.field-form {
+    display: flex;
+    align-items: center;
+}
+
+.field-form__button {
+    color: #fff;
+    background-color: #0050ff;
+    padding: 10px 16px;
+    border-radius: 24px;
+
+    transition: opacity 0.4s;
+}
+
+.field-form__button:disabled {
+    cursor:default;
+    opacity: 0.7 !important;
+}
+
+.field-form__button:hover {
+    opacity: 0.7;
+}
+
+.field-form__button:active {
+    opacity: 0.3;
+}
+
+.field-form__field {
+    font-size: 14px;
+    line-height: 1.3em;
+    flex-grow: 1;
+}
+
+input.field-form__field{
+    height: 37px;
+    width: 97%;
+    border-radius: 12px;
+    margin: 9px 0px;
+    background-color: #fff;
+  }
+
+  button.field-form__button{
+    margin: 14px 0;
+    width: 95%;
+  }  
+.eye, input.eye{
+    position: relative;
+    top: -38px;
+    left: 85%;
+    cursor: pointer;
+}
+input.eye{
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    border: none;
+}
+/* .fas.fa-eye{
+    type: "button";
+}
+.fas.fa-eye-slash{
+    type:
+} */
