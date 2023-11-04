@@ -1,0 +1,14 @@
+.recieve{
+    background-image: url("../menu/arrow-back.png");
+}
+.cwb{
+    float: right;
+}
+.menu{
+  width: 400px;
+  margin: 0 auto;
+  padding: 2px 10px;
+}
+.clear{
+  clear: both;
+}

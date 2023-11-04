@@ -1,0 +1,23 @@
+.settings .login-form {
+  margin-bottom: 0;
+}
+.setting-form {
+  padding: 0 20px;
+  position: relative;
+  width: 400px;
+}
+div.container.settings h3, .container.settings h3{
+  margin: 7px 0 7px 16px;
+}
+.setting-form .current-email{
+  position: absolute;
+  top: 2px;
+  right: 24px;
+}
+
+.setting-form .field-form__button, .setting-form button.field-form__button{
+  margin: 10px 0px 10px -4px;
+  background-color: #fff;
+  color: #4a2be2;
+  border: 1px solid #4a2be2;;
+}

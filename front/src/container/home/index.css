@@ -1,0 +1,56 @@
+.main {
+    background-image: url("background.svg");
+    margin: 0 auto;
+    height: 583px;
+    width: 393px;
+  }
+
+  .main-center {
+    background-image: url("money.png");
+    margin: 20px auto;
+    height: 601px;
+    width: 601px;    
+    margin-left: -208px;
+    margin-top: -151px;
+  }
+
+  .main h3{
+    text-align: center;
+    position: relative;    
+    top: 20px;
+  }
+
+.main .buttons{
+  margin-top: 45px;
+}
+
+.App-link {
+  display: block;
+  height: 56px;
+  border: none;
+  margin: 10px 20px;
+  border-radius: 12px;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #775CE5;
+  gap: 10px;
+  padding: 14px 20px 14px 20px;
+  }
+
+.App-link:hover{  
+  background-color: #775CE5;
+}
+
+.App-link{  
+  background-color: #fff;
+}
+
+.page.main .menu {
+  position: absolute;
+}
+/* ---------------------------------- */
+@media (max-height: 700px) {
+  .main-center{
+    margin-top: -124px;
+  }
+}

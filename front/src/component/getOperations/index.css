@@ -1,0 +1,12 @@
+.user-show {
+    font-size: 300%;
+}
+.clear{
+    clear: both;
+}
+.getOperations.user{
+    display: grid;
+}
+.getOperations.kind{
+    font-size: 80%;
+}

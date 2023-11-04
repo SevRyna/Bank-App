@@ -1,0 +1,11 @@
+.signup textarea {
+    width: 100%;
+  background-color: #fff;
+  border-radius: 12px;
+  margin: 10px -4px;
+  padding-top: 4px;
+  padding-left: 10px;
+}
+.signup .field-form__field{
+  border-color: #4f4fec;;
+}

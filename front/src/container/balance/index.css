@@ -1,0 +1,118 @@
+.balance .head {
+    margin: -47px auto;
+    background-image: url("back-balance.svg");
+    height: 202px;
+    width: 393px;
+    color: #fff;   
+    /* margin: -47px 123px; */
+    position: fixed;
+    top: 47px;
+    border-radius: 12px 12px 0 0;
+}
+
+.balance .data-f{
+    width: 393px;
+    color: #000;
+    position: fixed;
+    /* width: 393px; */
+    /* margin: 252px 0 0 127px;? */
+    top: 230px;
+    /* overflow:scroll; */
+}
+/* .balance-container{ */
+    /* border: 1px solid;
+    height: 202px;
+    width: 393px;
+    margin: -47px 123px; */
+/* } */
+
+h4{
+    text-align: center;
+    padding: 20px 0;
+}
+.balance h1{
+    color: #fff;
+}
+.rs{
+  margin-left: auto;
+  margin-right: auto;
+  width: 6em;
+  position: sticky;
+  z-index: 999999;  
+  margin-top: 30px;
+}
+.recieve{
+    background-image: url("arrow-down-right.png");
+    background-repeat: no-repeat;
+    width: 42px;
+    height: 42px; 
+    float: left;    
+    border: 4px solid #fff;
+    border-radius: 50%;    
+    background-color: #5B94E9;
+}
+.send{
+    background-image: url("people-upload.png");
+    background-repeat: no-repeat;
+    width: 42px;
+    height: 42px;
+    float: left;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    margin-left: 5px;
+    background-color: #5B94E9;
+}
+.send-label, .recieve-label{
+    position: absolute;
+    top: 42px;
+    font-size: 76%;
+}
+.recieve-label{
+    left: 0px;
+}
+.send-label{
+    right: 15px;
+}
+
+.table-list {
+    margin: 48px auto;
+    width: 438px;
+}
+.table-list div{
+    float: left;
+    padding-left: 13px;
+}
+.table-list tr, .table-list td{
+    cursor: pointer;
+}
+/* .table-list div, .table-list td{
+    width: 50px;
+} */
+.sender-sign {
+    width: 15%;
+}
+.sender {
+    width: 65%;
+    padding-top: 12px;
+}
+.amount {
+    width: 20%;
+    padding-top: 12px;
+}
+.balance .menu {
+    position: absolute;
+}
+
+.balance-list .email-st{
+  position: absolute;
+  top: -29px;
+  right: 9px;
+}
+@media (max-width: 760px) {
+    .balance-list .table-list tbody{
+    height: 300px;
+    display: inline-block;
+    width: 89%;
+    overflow-y: auto;
+    }
+}
